@@ -45,142 +45,182 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: TabBarView(
           children: [
-            ListView(
-              children: [
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text(
-                      "50+",
-                      style: TextStyle(color: Colors.green),
+            Padding(
+              padding: EdgeInsets.zero,
+              child: ListView(
+                children: [
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
                     ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text(
-                      "50+",
-                      style: TextStyle(color: Colors.green),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
                     ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-                Card(
-                  elevation: 5,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Ahmad"),
-                    subtitle: Text("woi kerjain tugass yang kemaren!!"),
-                    trailing: Text("50+", style: TextStyle(color: Colors.green)),
+                  Card(
+                    elevation: 5,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Ahmad"),
+                      subtitle: Text("woi kerjain tugass yang kemaren!!"),
+                      trailing: Text(
+                        "50+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
+            // status
             ListView(
               children: const [
                 ListTile(
@@ -240,45 +280,48 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
             // TAB 3: PANGGILAN
-            ListView(
-              children: const [
-                ListTile(
-                  leading: CircleAvatar(
-                    backgroundColor: Colors.grey,
-                    child: Icon(Icons.person, color: Colors.white),
+            Padding(
+              padding: EdgeInsets.zero,
+              child: ListView(
+                children: const [
+                  ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: Colors.grey,
+                      child: Icon(Icons.person, color: Colors.white),
+                    ),
+                    title: Text(
+                      "Ahmad ganteng",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    subtitle: Row(
+                      children: [
+                        Icon(Icons.call_received, color: Colors.red, size: 16),
+                        SizedBox(width: 4),
+                        Text("Kemarin, 21.45"),
+                      ],
+                    ),
+                    trailing: Icon(Icons.call, color: Colors.green),
                   ),
-                  title: Text(
-                    "Ahmad ganteng",
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: Colors.grey,
+                      child: Icon(Icons.person, color: Colors.white),
+                    ),
+                    title: Text(
+                      "Ahmad ganteng",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    subtitle: Row(
+                      children: [
+                        Icon(Icons.call_made, color: Colors.green, size: 16),
+                        SizedBox(width: 4),
+                        Text("Hari ini, 11.00"),
+                      ],
+                    ),
+                    trailing: Icon(Icons.videocam, color: Colors.green),
                   ),
-                  subtitle: Row(
-                    children: [
-                      Icon(Icons.call_received, color: Colors.red, size: 16),
-                      SizedBox(width: 4),
-                      Text("Kemarin, 21.45"),
-                    ],
-                  ),
-                  trailing: Icon(Icons.call, color: Colors.green),
-                ),
-                ListTile(
-                  leading: CircleAvatar(
-                    backgroundColor: Colors.grey,
-                    child: Icon(Icons.person, color: Colors.white),
-                  ),
-                  title: Text(
-                    "Ahmad ganteng",
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  subtitle: Row(
-                    children: [
-                      Icon(Icons.call_made, color: Colors.green, size: 16),
-                      SizedBox(width: 4),
-                      Text("Hari ini, 11.00"),
-                    ],
-                  ),
-                  trailing: Icon(Icons.videocam, color: Colors.green),
-                ),
-              ],
+                ],
+              ),
             ),
           ],
         ),
