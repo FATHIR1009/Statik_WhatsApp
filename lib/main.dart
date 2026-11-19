@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'detail_chat.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'WhatsApp',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const MyHomePage(title: 'WhatsApp'),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -172,18 +174,6 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-    );
-  }
-}
-
-class DetailChat extends StatelessWidget {
-  const DetailChat({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Aji')),
-      body: const Center(child: Text('Chat dengan Aji')),
     );
   }
 }
